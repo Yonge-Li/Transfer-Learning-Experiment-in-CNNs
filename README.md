@@ -19,9 +19,6 @@ Replace the output layer and the last two convolutional layers, keeping all othe
 All models were trained for 50 epochs, and accuracy was recorded for each epoch.
 
 📁 Project Structure
-graphql
-Copy
-Edit
 ├── experiments/
 │   ├── experiment_1_train_from_scratch.ipynb
 │   ├── experiment_2_finetune_output_layer.ipynb
@@ -40,15 +37,13 @@ Edit
 │
 ├── report.pdf               # Short report with results and discussion
 ├── README.md
+
+
 ⚙️ Requirements
 Python 3.8+
-
 TensorFlow 2.x
-
 NumPy
-
 Matplotlib
-
 scikit-learn (optional for further metrics)
 
 🧪 Results Summary
