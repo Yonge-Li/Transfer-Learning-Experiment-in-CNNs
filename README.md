@@ -4,6 +4,7 @@ Overview
 We conducted four experiments using the same CNN architecture and hyperparameters, modifying different parts of the network to test the impact of transfer learning.
 
 🔬 Overview
+
 Experiment 1:
 Train a CNN model from scratch on the Cats vs Dogs dataset using a learning rate of 0.0001.
 
@@ -19,6 +20,7 @@ Replace the output layer and the last two convolutional layers, keeping all othe
 All models were trained for 50 epochs, and accuracy was recorded for each epoch.
 
 📁 Project Structure
+
 ├── experiments/
 │   ├── experiment_1_train_from_scratch.ipynb
 │   ├── experiment_2_finetune_output_layer.ipynb
