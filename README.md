@@ -28,11 +28,11 @@ All models were trained for 50 epochs, and accuracy was recorded for each epoch.
 📁 Project Structure
 
 ├── experiments/
-│   ├── experiment_1-1_tutoring_model.py
-│   ├── experiment_1-2_base_model.py
-│   ├── experiment_2_finetune_output_layer.py
-│   ├── experiment_3_finetune_first_layers.py
-│   ├── experiment_4_finetune_last_layers.py
+│   ├── Exp1-1_tutoring_model.py
+│   ├── Exp1-2_base_model.py
+│   ├── Exp2_finetune_output_layer.py
+│   ├── Exp3_finetune_first_layers.py
+│   ├── Exp4_finetune_last_layers.py
 │
 ├── datasets/
 │   ├── cats_vs_dogs/        # Custom downloaded cats and dogs dataset
