@@ -27,29 +27,10 @@ All models were trained for 50 epochs, and accuracy was recorded for each epoch.
 
 📁 Project Structure
 
-├── experiments/
-│   ├── Exp1-1_tutoring_model.py
-│   ├── Exp1-2_base_model.py
-│   ├── Exp2_finetune_output_layer.py
-│   ├── Exp3_finetune_first_layers.py
-│   ├── Exp4_finetune_last_layers.py
-│
-├── datasets/
-│   ├── cats_vs_dogs/        # Custom downloaded cats and dogs dataset
-│   ├── stanford_dogs/       # Downloaded using TensorFlow Datasets
-│
-├── models/
-│   ├── stanford_model.h5    # Saved model trained on Stanford Dogs
-│
-├── results/
-│   ├── Exp1_1_CatsDogs_results.txt                 
-│   ├── Exp1_2_stanford_dogs_model_results.txt
-│   ├── Experiment2_results.txt
-│   ├── Experiment3_results.txt
-│   ├── Experiment4_results.txt
-│
-├── report.pdf               
-├── README.md
+![image](https://github.com/user-attachments/assets/86a51e06-1eb5-4218-bfd7-3f3d869e860a)
+
+
+
 
 
 ⚙️ Requirements
@@ -60,9 +41,9 @@ scikit-learn (optional for further metrics)
 
 🧪 Results Summary
 
-Experiment	Best Accuracy	Notes
-1	XX%	Training from scratch
-2	XX%	Transfer learning: output layer replaced
-3	XX%	Transfer learning: output + first 2 conv layers replaced
-4	XX%	Transfer learning: output + last 2 conv layers replaced
+Experiment	Best Validation Accuracy	Notes
+1	44%	Training from scratch
+2	73%	Transfer learning: output layer replaced
+3	79%	Transfer learning: output + first 2 conv layers replaced
+4	87%	Transfer learning: output + last 2 conv layers replaced
 📄 See report.pdf for detailed plots and analysis.
