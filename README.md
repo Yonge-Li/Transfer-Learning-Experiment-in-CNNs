@@ -1,6 +1,6 @@
 # Transfer-Learning-Experiment-in-CNNs
 
-The objective of the assignment is to explore transfer learning in Convolutional Neural Networks (CNNs) through a series of experiments focused on layer replacement. 
+The objective is to explore transfer learning in Convolutional Neural Networks (CNNs) through a series of experiments focused on layer replacement. 
 
 The network architecture and training parameters are kept consistent across the experiments to ensure valid comparisons. 
 
